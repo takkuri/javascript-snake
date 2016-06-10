@@ -1,0 +1,28 @@
+#grid_container {
+    width: 760px;
+    height: 760px;
+  
+}
+
+.grid {
+     margin: 1px 2px 2px 2px; 
+    box-sizing: border-box;
+    display:inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+}
+.grid-snake-tail {
+    background-color: pink;
+    border: 0;
+}
+
+
+.grid-fruit {
+    background-color: green;
+    border: 0;
+}
+.grid-snake-head {
+    background-color: red;
+    border: 0;
+}
